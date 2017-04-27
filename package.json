@@ -1,21 +1,41 @@
 {
-  "name": "le-static",
+  "name": "filesy",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "react server render",
+  "private": true,
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "koa": "^2.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-jade": "^2.1.0",
+    "koa-router": "^7.1.1",
+    "koa-static-cache": "^5.0.1",
+    "koa-webpack-dev-middleware": "^1.4.5",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "sass-loader": "^4.1.1",
+    "webpack": "^2.4.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git@182.254.146.59:LFT/le-static.git"
+    "url": "git+https://github.com/thomasyxy/filesy.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "koa": "^2.2.0",
-    "koa-router": "^7.1.1",
-    "koa-static-cache": "^5.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/thomasyxy/filesy/issues"
+  },
+  "homepage": "https://github.com/thomasyxy/filesy#readme"
 }
